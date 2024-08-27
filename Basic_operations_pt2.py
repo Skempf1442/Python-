@@ -1,9 +1,9 @@
-# Given length and area
+# solving a mathematical operation 
+
 length = 20
-area = 15
+width= 15
+area = 300
 
-# Calculate width using the formula: area = length * width
-width = area + length
+print("The area of the rectangle with a legnth of " + str(length) + "and a width of" + str(width)+ " is " + str(area))
 
-# Print the result
-print(f"The area of the rectangle is {area}, with length {length} and width {width}.")
+#The area of the rectangle with a length of <length> and a width <width> is <area>
